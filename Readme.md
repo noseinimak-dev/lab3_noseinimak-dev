@@ -30,3 +30,4 @@ The program shows a clear message for a missing file, an empty file, missing col
 - No `.sort()`, `sorted()` or `max()` are used.
 - Selection Sort can take a few seconds on a large dataset.
 - `cut` splits on commas, so a username containing a comma could be miscounted.
+- Some tweets contain line breaks, so the shell script filters the Username column to keep only valid usernames.
